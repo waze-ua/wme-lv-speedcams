@@ -4,7 +4,7 @@
 // @description         Overlay speedcams for Latvia
 // @include             https://*waze.com/*editor*
 // @exclude             https://*waze.com/*user/editor*
-// @version             0.3
+// @version             0.3.1
 // @grant               GM_xmlhttpRequest
 // @connect             google.com
 // @require             https://greasyfork.org/scripts/24851-wazewrap/code/WazeWrap.js
