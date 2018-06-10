@@ -62,6 +62,7 @@ function getSpeedcamLV() {
       parser.internalProjection = W.map.getProjectionObject();
       parser.externalProjection = new OL.Projection("EPSG:4326");
       var features = parser.read(res.responseText);
+      // TODO: customize features before adding
       SCLV_Layer.addFeatures(features);
     },
     onreadystatechange: function (res) {
